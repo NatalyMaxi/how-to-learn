@@ -1,6 +1,4 @@
 .page {
-  display: flex;
-  
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -78,9 +76,11 @@
 }
 
 .content {
-  display: flex;
+  /* display: flex;
+  flex-direction: column;
   position: relative;
   margin: 0 auto;
+  width: 100%; */
 }
 
 
@@ -88,9 +88,11 @@
 
 
 .feynman__content {
+  position: relative;
   display: flex;
-  flex-direction: ccolumn-reverse;
+  justify-content: center;
   height: 890px;
+  text-align: center;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
   background-size: 867px 637px;
@@ -104,32 +106,30 @@
   font-weight: 700;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   line-height: 1.15;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 100px;
-  margin-bottom: auto;
+  margin-bottom: 0;
 
 }
+
 
 .content__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   justify-content: center;
-  margin: auto;
-  padding-top: 70px;
- 
+  margin-top: 70px;
+
 }
 
 .content__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin-left: auto;
-  margin-right: 48px;
-  margin-top: 50%;
-  
- 
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: blue;
+  text-decoration: none;
 }
 
 
