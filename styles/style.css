@@ -269,7 +269,7 @@
  
   background-color: #1f1f1f;
   margin: 0;
-  min-height: 350px;
+ 
   width: 100%;
   padding: 60px 0 40px;
 }
@@ -279,18 +279,17 @@
   width: 90%;
   justify-content: space-between;
   margin: 0 auto;
-
+  min-height: 350px;
 }
 
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: auto;
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  width: 711 px;
+  flex: 0 0 711px;
 }
 
 .logo_place_footer {
@@ -308,23 +307,24 @@
   padding: 0;
 }
 
-.footer__column_content_info {
+.wrapper{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+}
+
+.footer__column_content_info {
+  display: flex;
+  justify-content: end;
   margin: 0;
   padding: 0;
-  flex-basis: auto;
   
 }
 
 .footer__column_content_social {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  justify-content: end;
   margin: 0;
   padding: 0;
-  flex-basis: auto;
   
 }
 
@@ -359,7 +359,8 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal; 
-
+  display: flex;
+  align-items: center;
 }
 .footer__column-icon {
   width: 16px;
