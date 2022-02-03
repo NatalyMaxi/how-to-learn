@@ -15,7 +15,7 @@
   color: #000000;
   background-color: #f2f2f2;
   z-index: 0;
-  
+
 }
 
 .logo_place_header {
@@ -73,7 +73,7 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
- 
+
 }
 
 .two-columns {
@@ -97,29 +97,32 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  
+
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
- margin: 30px 0;
-  
+  margin: 30px 0;
+
 }
+
 .two-columns__paragraph:first-child {
-margin-top: 0;
+  margin-top: 0;
 }
+
 .two-columns__paragraph:last-child {
- margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-  
+
 }
+
 
 .digits {
   width: 100%;
@@ -140,9 +143,10 @@ margin-top: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
-  margin: 20px auto 0;
+  margin: 0 auto;
   text-align: center;
   width: 60%;
+  padding-top: 20px;
 }
 
 .table {
@@ -172,14 +176,15 @@ margin-top: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  margin: 20px 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-.feynman__content {
+.feynman {
   position: relative;
   display: flex;
   justify-content: center;
-  height: 890px;
+  min-height: 890px;
   text-align: center;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
@@ -188,7 +193,7 @@ margin-top: 0;
   margin: 0;
   padding: 0;
   color: #000000;
-background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .content__title {
@@ -205,7 +210,8 @@ background-color: #f2f2f2;
   font-size: 36px;
   font-weight: normal;
   justify-content: center;
-  margin-top: 70px;
+  padding-top: 70px;
+  margin: 0;
 }
 
 .content__link {
