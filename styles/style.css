@@ -231,16 +231,20 @@
 
 .section-title_theme_dark {
   color: white;
-  text-align: center;
+  z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  text-align: center;
+  z-index: 1;
+  position: relative;
 }
 
 .table_theme_dark {
   z-index: 1;
+  margin: 0 auto;
+  position: relative;
 }
 
 .table__cell_theme_dark {
@@ -323,7 +327,6 @@
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer__column-links {
