@@ -257,17 +257,23 @@
   line-height: 1.15;
   font-weight: 700;
   text-align: center;
-  margin: 0 auto;
   width: 60%;
+}
+
+.section-title_theme_light {
+  margin: 0 auto;
 }
 
 .section-subtitle {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
-  margin: 20px auto 0;
   text-align: center;
   width: 60%;
+}
+
+.section-subtitle_theme_light {
+  margin: 20px auto 0;
 }
 
 .table {
@@ -275,15 +281,21 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: 0 auto;
   padding: 0;
 }
 
+.table_theme_light {
+  margin: 0 auto;
+}
+
 .table__cell {
-  width: 250px;
   list-style: none;
+}
+
+.table__cell_theme_light {
   margin-right: 0;
   margin-top: 60px;
+  width: 250px;
 }
 
 .table__heading {
@@ -397,7 +409,6 @@
 
 .table_theme_dark {
   z-index: 1;
-  margin: 0 auto;
   position: relative;
 }
 
