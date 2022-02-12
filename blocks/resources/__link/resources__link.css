@@ -1,0 +1,10 @@
+.resources__link {
+  text-decoration: none;
+  color: #2f80ed;
+  z-index: 3;
+  transition: 2s linear;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
+}
